@@ -1,0 +1,6 @@
+C:\Users\Mads Riisom\Documents\Code\deothan.dk.des.csharp\deothan.dk.des.csharp\bin\Debug\deothan.dk.des.csharp.exe.config
+C:\Users\Mads Riisom\Documents\Code\deothan.dk.des.csharp\deothan.dk.des.csharp\bin\Debug\deothan.dk.des.csharp.exe
+C:\Users\Mads Riisom\Documents\Code\deothan.dk.des.csharp\deothan.dk.des.csharp\bin\Debug\deothan.dk.des.csharp.pdb
+C:\Users\Mads Riisom\Documents\Code\deothan.dk.des.csharp\deothan.dk.des.csharp\obj\Debug\deothan.dk.des.csharp.csprojResolveAssemblyReference.cache
+C:\Users\Mads Riisom\Documents\Code\deothan.dk.des.csharp\deothan.dk.des.csharp\obj\Debug\deothan.dk.des.csharp.exe
+C:\Users\Mads Riisom\Documents\Code\deothan.dk.des.csharp\deothan.dk.des.csharp\obj\Debug\deothan.dk.des.csharp.pdb
