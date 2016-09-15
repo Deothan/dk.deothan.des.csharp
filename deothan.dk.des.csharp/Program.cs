@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -22,6 +23,12 @@ namespace deothan.dk.des.csharp
             TwoLeggedAnimal twoLeggedAnimal = null;
             FourLeggedAnimal fourLeggedAnimal = null;
 
+            Dictionary<string, Animal> animals = new Dictionary<string, Animal>();
+            animals.Add("cat", picked);
+            animals.Add("Cow", fourLeggedAnimal);
+            animals.Add("Ostrich", twoLeggedAnimal);
+
+
             WriteLine("Welcome");
             Shortcut.WriteLine("To the animal picker");
             var line = ReadLine();
@@ -29,9 +36,11 @@ namespace deothan.dk.des.csharp
             {
                 switch (line)
                 {
-                    case "ostrich":
+                    case "ostrich":                        
                         twoLeggedAnimal = new Ostrich();
+                        Animal animal = animals["Ostrich"];
                         WriteLine(twoLeggedAnimal.GetRace());
+                        Shortcut.WriteLine(animal.GetRace());
                         foreach (var twoFeetName in twoLeggedAnimal.GetTwoFeetNames())
                         {
                             WriteLine(twoFeetName);

@@ -12,7 +12,7 @@ namespace deothan.dk.des.csharp.Implementation
     {
         public string GetRace()
         {
-            return this.GetType().FullName;
+            return "cat";
         }
 
         public string[] GetFourFeetNames()
